@@ -5,3 +5,74 @@
     box-sizing: border-box;
 
 }
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.wrapper{
+    display: flex;
+	align-items: center;
+	justify-content: start;
+    width: 80%;
+    height: 450px;
+	height: 100vh;
+}
+
+#container-a{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 55%;
+    height: 450px;
+    
+
+}
+
+#container-b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: 450px;
+    
+}
+
+.name{
+    color: cadetblue;
+    display: block;
+    margin-left: 5px;
+}
+
+.email{
+    color: cadetblue;
+    display: block;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.descricao{
+    color: cadetblue;
+    display: block;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+
+.textInput{
+    width: 550px;
+    height: 35px;
+    padding-left: 5px;
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+}
+
+#descricao{
+    width: 550px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+}
