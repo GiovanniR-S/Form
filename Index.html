@@ -5,31 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Responsive.css">
     <title>Formulário</title>
 </head>
 <body>
-    <form class="wrapper" action="" method="get">
+    <form class="wrapper" action="" method="post">
         <div id="container-a">
-            <div>
+            <div class="form-a">
                 <div class="name">
                     <label for="fname">Name: </label><br>
                     <input class="textInput" type="text" id="fname" name="fname" placeholder="Jonh Doe"><br>
                 </div>
-
+                <div class="clear"></div>
                 <div class="email">
                     <label for="femail">Email: </label><br>
                     <input class="textInput" type="text" id="femail" name="femail" placeholder="error@email.com"><br>
                 </div>
-
+                <div class="clear"></div>
                 <div class="descricao">
                     <textarea name="descricao" id="descricao" cols="30" rows="10" placeholder="Type Something"></textarea>
                 </div>
-
-            </div>
+                <div class="clear"></div>
+            </div><!--form a-->
 
         </div><!--container a-->
+        <div class="clear"></div>
         <div id="container-b">
-            <div>
+            <div class="form-b">
                 <div class="checkbox">
                     <input class="checkOpcao" type="checkbox" name="option1" id="option1">
                     <label for="option1">Opção 1</label>
@@ -38,7 +40,7 @@
                     <input class="checkOpcao" type="checkbox" name="option3" id="option3">
                     <label for="option2">Opção 3</label>
                 </div><!--checkbox-->
-                
+                <div class="clear"></div>
                 <div class="selecao">
                     <label for="dropdown">Dropdown</label><br>
                     <select name="select1" id="select1">
@@ -57,10 +59,12 @@
                         <option value="opcao3">Opcao 3</option>
                     </select><br>
                 </div>
+                <div class="clear"></div>
                 <div class="container">
                     <div class="tags">
                         <label for="tags">Tags</label><br>
-                        <span onclick="tagSelecinada(this)" class="tag">Ilustration</span>
+                        <span onclick="tagSelecinada(this)" class="tag">web</span>
+                        <span onclick="tagSelecinada(this)" class="tag">ilustration</span>
                         <span onclick="tagSelecinada(this)" class="tag">graphics</span>
                         <span onclick="tagSelecinada(this)" class="tag">ui</span>
                         <span onclick="tagSelecinada(this)" class="tag">Design</span>
@@ -75,10 +79,14 @@
                         <input class="button" type="button" value="Enviar">
                     </div><!--botao-->
                 </div><!--container-->
+                <div class="clear"></div>
                 
-            </div>
+            </div><!--form b-->
         </div><!--container b-->
+        <div class="clear"></div>
     </form><!--wrapper-->
+
+    <div class="clear"></div>
 
     <!--javaScript-->
     <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>

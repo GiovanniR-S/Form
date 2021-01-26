@@ -1,5 +1,5 @@
 *{
-
+    /*Resetando valores inicias da pagina*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -18,8 +18,11 @@ body{
 	align-items: center;
 	justify-content: start;
     width: 80%;
-    height: 450px;
 	height: 100vh;
+}
+
+.form-a{
+    width: 100%;
 }
 
 #container-a{
@@ -28,7 +31,6 @@ body{
     justify-content: flex-start;
     width: 55%;
     height: 450px;
-    
 
 }
 
@@ -43,13 +45,13 @@ body{
 
 .name{
     color: cadetblue;
-    display: block;
+    width: 95%;
     margin-left: 5px;
 }
 
 .email{
     color: cadetblue;
-    display: block;
+    width: 95%;
     margin-left: 5px;
     margin-top: 10px;
 }
@@ -64,6 +66,8 @@ body{
 .descricao{
     color: cadetblue;
     display: block;
+    max-width: 550px;
+    width: 100%;
     margin-left: 5px;
     margin-top: 50px;
 }
@@ -77,10 +81,9 @@ body{
 }
 
 #descricao{
-    min-width: 550px;
-    width: 100%;
     padding-top: 5px;
     padding-left: 5px;
+    width: 100%;
     border: 2px solid cadetblue;
     border-radius: 5px;
 }
@@ -175,4 +178,10 @@ body{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;  
+}
+
+.clear{
+
+    clear: both;
+
 }

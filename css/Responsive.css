@@ -1,0 +1,77 @@
+@media screen and (max-width: 768px){
+    .wrapper{
+        display: block;
+        width: 50%;
+        margin-top: 50px;
+    }
+
+    #container-a{
+        width: 100%;  
+    }
+
+    #container-b{
+        width: 100%;  
+        margin-left: 10px;      
+    }
+
+    .name{
+        width: 100%;
+    }
+
+    .email{
+        width: 100%;
+    }
+
+    .descricao{
+        margin-top: 35px;
+    }
+
+    .checkbox{
+        margin-top: 15px;
+    }
+
+    .checkbox label{
+        margin-right: 20px;
+    }
+    
+    
+    .container{
+        display: block;
+    }
+
+    .button{
+        margin-top: 50px;
+    }
+
+    .selecao select{
+        width: 95%;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+    .wrapper{
+        width: 95%;
+    }
+
+    #container-a{
+        width: 90%;  
+    }
+
+    #container-b{
+        width: 90%;      
+    }
+
+    .selecao select{
+        width: 95%;
+    }
+
+    .checkbox{
+        margin: 0;
+    }
+
+    .checkbox label{
+        margin-right: 10px;
+        margin-bottom: 5px;
+    }
+}
