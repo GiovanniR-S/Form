@@ -34,8 +34,8 @@ body{
 
 #container-b{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
     width: 45%;
     height: 450px;
     
@@ -54,6 +54,13 @@ body{
     margin-top: 10px;
 }
 
+.selecao{
+    color: cadetblue;
+    display: block;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
 .descricao{
     color: cadetblue;
     display: block;
@@ -62,7 +69,7 @@ body{
 }
 
 .textInput{
-    width: 550px;
+    width: 100%;
     height: 35px;
     padding-left: 5px;
     border: 2px solid cadetblue;
@@ -70,9 +77,102 @@ body{
 }
 
 #descricao{
-    width: 550px;
+    min-width: 550px;
+    width: 100%;
     padding-top: 5px;
     padding-left: 5px;
     border: 2px solid cadetblue;
     border-radius: 5px;
+}
+
+.checkbox{
+    margin-top: 30px;
+    color: cadetblue;
+}
+
+.checkbox label{
+    margin-right: 40px;
+}
+
+.checkOpcao{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.selecao select{
+    width: 360px;
+    height: 50px;
+    padding-left: 5px;
+    color: cadetblue;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+}
+
+.selecao select:first-of-type{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.selecao select:nth-of-type(2){
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.selecao select:nth-of-type(3){
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.tags{
+    display: block;
+    text-align: justify;
+    margin-top: 25px;
+    margin-left: -4px;
+    margin-right: 50px;
+    width: 200px;
+    height: 125px;
+    font-size: 20px;
+    color: rgb(61, 101, 102);
+}
+
+.tag{
+    display: inline-block;
+    margin: 5px -4px 5px 0;
+    padding: 5px;
+    border: 1px solid cadetblue;
+    border-radius: 5px;
+    font-size: 12px;
+    color: rgb(61, 101, 102);
+    cursor: pointer;
+}
+
+.select{
+    color: white;
+    border: 1px solid rgb(61, 101, 102);
+    background-color: cadetblue;
+}
+
+.container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0;
+    margin: -8px;
+
+}
+
+.button{
+    background-color: cadetblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;  
 }
